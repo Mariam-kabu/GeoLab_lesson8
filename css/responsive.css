@@ -1,0 +1,42 @@
+@media (max-width: 1024px){
+	/*header - social icons*/
+	.socialicons{
+		display: none;
+	}
+	/*section 1*/
+	.banner{
+		width: 100%;
+	}
+	/*section 2*/
+	.youtube{
+		height: 800px;
+	}
+	.video-box{
+		flex-direction: column;
+		align-items: center;
+	}
+	.video{
+		margin-bottom: 30px;
+	}
+	/*section 3*/
+	.section3{
+		height: 700px;
+	}
+	.rectangle{
+		flex-wrap: wrap;
+	}
+	.rect-img{
+		margin-bottom: 30px;
+	}
+	/*section 4*/
+	.section4{
+		height: 600px;
+	}
+	.articlesbox{
+		flex-direction: column;
+		align-items: center;
+	}
+	.article{
+		margin-bottom: 30px;
+	}
+}
