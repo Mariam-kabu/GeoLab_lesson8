@@ -2,6 +2,7 @@ body{
 	padding-top: 107px;
 }
 .header{
+	display: flex;
 	padding: 20px 100px;
 	background-color: white;
 	position: fixed;
@@ -10,26 +11,25 @@ body{
     width: 100%;
     z-index: 1;
 }
-.logo{
-	vertical-align: middle;
-}
 .navigation{
-	display: inline-block;
-	vertical-align: middle;
-	margin: 0 80px;
+	margin: 18px 80px;
+}
+.list{
+	display: flex;
 }
 .nav-li{
-	display: inline-block;
 	padding-right: 30px; 
 }
 .nav-a{
 	font-family: 'Roboto', sans-serif;
 	font-size: 24px;
 	text-transform: uppercase;
+	font-weight: 600;
 	color: #3D58A6;
 }
-.socials{
-	display: inline-block;
+.socialicons{
+	display: flex;
+	align-items: center;
 }
 .socials::after{
 	content: ' ';
@@ -39,12 +39,9 @@ body{
 	display: inline-block;
 	background-color: #363E97;
 }
-.search{
-	display: inline-block;
-}
 /*section #1*/
 .banner-box{
-	width: 1366px;
+	width: 100%;
 	height: 520px;
 	background-color: #E6E6E6;
 	position: relative;
@@ -67,7 +64,7 @@ body{
 }
 /*section #2*/
 .youtube{
-	width: 1366px;
+	width: 100%;
 	height: 500px;
 	background-color: #363E97;
 	padding: 30px 98px;
@@ -94,7 +91,7 @@ body{
 }
 /*section #3*/
 .section3{
-	width: 1366px;
+	width: 100%;
 	height: 450px;
 	background-color: #BDCCD4;
 	padding: 30px 98px;
@@ -123,7 +120,7 @@ body{
  }
  /*section #4*/
  .section4{
- 	width: 1366px;
+ 	width: 100%;
  	height: 346px;
  	background-color: #E6E6E6;
  	padding: 30px 98px;
