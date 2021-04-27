@@ -1,15 +1,18 @@
 @media (max-width: 1024px){
-	/*header - social icons*/
+	/*header*/
 	.socialicons{
 		display: none;
 	}
 	/*section 1*/
-	.banner{
-		width: 100%;
+	.txt-box{
+		font-size: 26px;
+	}
+	.banner-logo{
+		width: 87px;
 	}
 	/*section 2*/
 	.youtube{
-		height: 800px;
+		height: auto;
 	}
 	.video-box{
 		flex-direction: column;
@@ -20,17 +23,18 @@
 	}
 	/*section 3*/
 	.section3{
-		height: 700px;
+		height: auto;
 	}
 	.rectangle{
 		flex-wrap: wrap;
+		justify-content: center;
 	}
 	.rect-img{
 		margin-bottom: 30px;
 	}
 	/*section 4*/
 	.section4{
-		height: 600px;
+		height: auto;
 	}
 	.articlesbox{
 		flex-direction: column;
@@ -38,5 +42,127 @@
 	}
 	.article{
 		margin-bottom: 30px;
+	}
+}
+@media (max-width: 768px){
+	/*header*/
+	.header{
+		padding: 20px 50px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.logo{
+		width: 175px;
+	}
+	.navigation{
+		display: none;
+	}
+	.bar-icon{
+		display: block;
+	}
+	/*section 2*/
+	.video-h{
+		font-size: 22px;
+	}
+	/*section 3*/
+	.section3{
+		padding: 30px 50px;
+	}
+	.section3-h{
+		font-size: 22px;
+	}
+	.image{
+		width: 100%;
+	}
+	.childrect{
+		font-size: 20px;
+	}
+	/*section 4*/
+	.section4-h{
+		font-size: 22px;
+	}
+	.article-h{
+		font-size: 20px;
+	}
+	.articleimg{
+		height: 110px;
+		margin: 0 30px 30px 20px; 
+	}
+	.articlepar{
+		font-size: 18px;
+	}
+	.readmore-txt{
+		font-size: 14px;
+		margin-top: 20px;
+	}
+}
+@media (max-width: 480px){
+	/*header*/
+	.header{
+		padding: 20px 40px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.logo{
+		width: 155px;
+	}
+	/*section 1*/
+	.txt-box{
+		font-size: 22px;
+		color: #ffff;
+	}
+	.banner-logo{
+		width: 67px;
+	}
+	/*section 2*/
+	.youtube{
+		padding: 30px 45px;
+	}
+	.video-h{
+		font-size: 20px;
+	}
+	.video{
+		height: 200px;
+	}
+	/*section 3*/
+	.section3-h{
+		font-size: 20px;
+	}
+	.childrect{
+		font-size: 18px;
+	}
+	/*section 4*/
+	.section4{
+		padding: 30px 55px;
+	}
+	.content{
+		flex-direction: column;
+		align-items: center;
+	}
+}
+@media (max-width: 380px){
+	/*header*/
+	.header{
+		padding: 20px 30px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.logo{
+		width: 130px;
+	}
+	/*section 2*/
+	.youtube{
+		padding: 30px 45px;
+	}
+	/*section 3*/
+	.section3{
+		padding: 30px 45px;
+	}
+	/*section 4*/
+	.section4{
+		padding: 30px 45px;
 	}
 }
