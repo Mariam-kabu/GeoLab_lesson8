@@ -1,8 +1,16 @@
-@media (max-width: 1024px){
-	/*header*/
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@media (max-width: 1224px){
 	.socialicons{
 		display: none;
 	}
+}
+@media (max-width: 1024px){
 	/*section 1*/
 	.txt-box{
 		font-size: 26px;
@@ -15,8 +23,13 @@
 		height: auto;
 	}
 	.video-box{
-		flex-direction: column;
-		align-items: center;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
 	}
 	.video{
 		margin-bottom: 30px;
@@ -26,8 +39,11 @@
 		height: auto;
 	}
 	.rectangle{
-		flex-wrap: wrap;
-		justify-content: center;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
 	}
 	.rect-img{
 		margin-bottom: 30px;
@@ -37,20 +53,34 @@
 		height: auto;
 	}
 	.articlesbox{
-		flex-direction: column;
-		align-items: center;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
 	}
 	.article{
 		margin-bottom: 30px;
 	}
 }
-@media (max-width: 768px){
+@media (max-width: 970px){
 	/*header*/
+	body{
+		padding-top: 96px;
+	}
 	.header{
 		padding: 20px 50px;
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		justify-content: space-between;
-		align-items: center;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
 	}
 	.logo{
 		width: 175px;
@@ -61,6 +91,8 @@
 	.bar-icon{
 		display: block;
 	}
+}
+@media (max-width: 768px){
 	/*section 2*/
 	.video-h{
 		font-size: 22px;
@@ -99,11 +131,20 @@
 }
 @media (max-width: 480px){
 	/*header*/
+	body{
+		padding-top: 90px;
+	}
 	.header{
 		padding: 20px 40px;
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		justify-content: space-between;
-		align-items: center;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
 	}
 	.logo{
 		width: 155px;
@@ -135,20 +176,38 @@
 	}
 	/*section 4*/
 	.section4{
-		padding: 30px 55px;
+		padding: 30px 50px;
 	}
 	.content{
-		flex-direction: column;
-		align-items: center;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
 	}
+	/*footer*/
+	.footer{
+ 	padding: 20px 45px;
+ 	}
 }
 @media (max-width: 380px){
 	/*header*/
+	body{
+		padding-top: 83px;
+	}
 	.header{
 		padding: 20px 30px;
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		justify-content: space-between;
-		align-items: center;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
 	}
 	.logo{
 		width: 130px;
@@ -165,4 +224,8 @@
 	.section4{
 		padding: 30px 45px;
 	}
+	/*footer*/
+	.footer{
+ 	padding: 20px 35px;
+ 	}
 }
